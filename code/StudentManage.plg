@@ -1,0 +1,61 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: StudentManage - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\EVILKN~1\LOCALS~1\Temp\RSP11.tmp" with contents
+[
+/nologo /ML /W3 /GX /Zi /Od /D "WIN32" /D "NDEBUG" /D "_CONSOLE" /D "_MBCS" /FR"Release/" /Fp"Release/StudentManage.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\source\MySoftware\StudentManage\entry.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\EVILKN~1\LOCALS~1\Temp\RSP11.tmp" 
+Creating temporary file "C:\DOCUME~1\EVILKN~1\LOCALS~1\Temp\RSP12.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:no /pdb:"Release/StudentManage.pdb" /debug /machine:I386 /out:"Release/StudentManage.exe" 
+.\Release\adjacency.obj
+.\Release\dbf.obj
+.\Release\entry.obj
+.\Release\FileIndex.obj
+.\Release\List.obj
+.\Release\Menu.obj
+.\Release\MyList.obj
+.\Release\ProcArgv.obj
+.\Release\RedBlackTree.obj
+.\Release\SBTree.obj
+.\Release\test.obj
+.\Release\Tools.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\EVILKN~1\LOCALS~1\Temp\RSP12.tmp"
+<h3>Output Window</h3>
+Compiling...
+entry.cpp
+Linking...
+Creating temporary file "C:\DOCUME~1\EVILKN~1\LOCALS~1\Temp\RSP14.tmp" with contents
+[
+/nologo /o"Release/StudentManage.bsc" 
+.\Release\adjacency.sbr
+.\Release\dbf.sbr
+.\Release\entry.sbr
+.\Release\FileIndex.sbr
+.\Release\List.sbr
+.\Release\Menu.sbr
+.\Release\MyList.sbr
+.\Release\ProcArgv.sbr
+.\Release\RedBlackTree.sbr
+.\Release\SBTree.sbr
+.\Release\test.sbr
+.\Release\Tools.sbr]
+Creating command line "bscmake.exe @C:\DOCUME~1\EVILKN~1\LOCALS~1\Temp\RSP14.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+StudentManage.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
